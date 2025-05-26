@@ -1,0 +1,80 @@
+export default {
+  mailing: {
+    pcs: 'pcs.',
+    new: 'New',
+    sale: 'Sale',
+  },
+  fabrics: {
+    title: 'All Fabrics',
+  },
+  buttons: {
+    close: 'Сlose',
+  },
+  pagination: {
+    of: 'of',
+    itemsPerPage: 'Fabrics per page',
+  },
+  links: {
+    moreInfo: 'More info',
+  },
+  loginRegister: {
+    title: 'Login or Register',
+    text: 'To add fabrics',
+    loginButton: 'Login',
+    registerButton: 'Register',
+  },
+  units: {
+    hours: 'hour, hours, hours',
+    hoursShort: 'h',
+    minutes: 'minute, minutes, minutes',
+    minutesShort: 'min',
+    currency: 'EUR',
+    metersShort: 'm',
+    meters: 'meter, meters, meters',
+    gramsPerMeter: 'g/m²',
+    centimeters: 'cm',
+    kilosShort: 'kg',
+    pcs: 'pcs.',
+  },
+  saved: 'Your data is saved',
+  support: 'Contact manager',
+  errors: {
+    something: `Something went wrong, we are sorry. Please try again or contact our manager`,
+    fourZeroFour: `This page doesn't exist`,
+    goBack: `Go back to catalog`,
+    notExist: `The user with this email does not exist. Check the email address, contact our manager or create a new account`,
+    required: 'This field is required',
+    emailFormat: 'Email should be ****@****.**',
+    serverside: {
+      noSuchUser: "User with this email doesn't exist",
+      wrongPassword: 'Wrong password',
+      recoveryExpired: 'Password recovery link not found or already used',
+      phoneInputError: 'Not valid phone number',
+      passwordTooShort: 'Password length should be greater than 6 symbols',
+    },
+  },
+  rangeDate: {
+    from: 'From',
+    to: 'To',
+    placeholderFrom: 'Date',
+    placeholderTo: 'Date',
+  },
+  search: {
+    showFilters: 'Filters',
+    inputPlaceholder: 'Enter text, for example: blue silk',
+    items: 'items',
+    show: 'Show',
+    foundTitle: 'Fabrics found',
+    clear: 'Clear filters',
+    placeholder: {
+      title: 'Nothing was found',
+      text: 'Try simplify or',
+      clear: 'сlear filters',
+    },
+  },
+  promo: {
+    current: 'Your current discount is <strong>{{ currentDiscountText }}</strong>. ',
+    next: 'Add more fabrics for <strong>{{ toAddUp }} EUR</strong> and get a discount of <strong>{{ nextDiscountText }}</strong>',
+  },
+  tax: 'Tax excluded',
+};

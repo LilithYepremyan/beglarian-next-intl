@@ -1,0 +1,80 @@
+export default {
+  mailing: {
+    pcs: 'шт',
+    new: 'Новинка',
+    sale: 'Распродажа',
+  },
+  buttons: {
+    close: 'Закрыть',
+  },
+  fabrics: {
+    title: 'Все Ткани',
+  },
+  pagination: {
+    of: 'из',
+    itemsPerPage: 'Тканей на странице',
+  },
+  links: {
+    moreInfo: 'Подробнее',
+  },
+  loginRegister: {
+    title: 'Войдите или зарегистрируйтесь',
+    text: 'Чтобы добавлять ткани',
+    loginButton: 'Вход',
+    registerButton: 'Регистрация',
+  },
+  units: {
+    hours: 'час, часа, часов',
+    hoursShort: 'ч',
+    minutes: 'минута, минуты, минут',
+    minutesShort: 'мин',
+    currency: 'EUR',
+    metersShort: 'м',
+    meters: 'метр, метра, метров',
+    gramsPerMeter: 'г/м²',
+    centimeters: 'см',
+    kilosShort: 'кг',
+    pcs: 'шт.',
+  },
+  saved: 'Ваши данные сохранены',
+  support: 'Связаться с менеджером',
+  errors: {
+    something: `Извините, что-то пошло не так. Пожалуйста, попробуйте еще раз или свяжитесь с нашим менеджером.`,
+    fourZeroFour: 'Этой страницы не существует',
+    goBack: `Назад в каталог`,
+    notExist: `Пользователь с этим адресом электронной почты не существует. Проверьте адрес электронной почты, свяжитесь с нашим менеджером или создайте новый аккаунт`,
+    required: 'Данное поле является обязательным',
+    emailFormat: 'Электронная почта должна быть в формате ****@****.**',
+    serverside: {
+      noSuchUser: 'Пользователь с данным email не найден',
+      wrongPassword: 'Неверный пароль',
+      recoveryExpired: 'Эта ссылка на восстановление пароля устарела',
+      phoneInputError: 'Некорректный номер телефона',
+      passwordTooShort: 'Длина пароля должна быть больше 6 символов',
+    },
+  },
+  rangeDate: {
+    from: 'С',
+    to: 'По',
+    placeholderFrom: 'Укажите дату',
+    placeholderTo: 'Укажите дату',
+  },
+  search: {
+    showFilters: 'Фильтры',
+    inputPlaceholder: 'Введите текст, например: синий шелк',
+    items: 'шт.',
+    show: 'Показать',
+    foundTitle: 'Найдено тканей',
+    clear: 'Очистить фильтры',
+    placeholder: {
+      title: 'Ничего не найдено',
+      text: 'Попробуйте упростить или',
+      clear: 'очистить фильтры',
+    },
+  },
+  promo: {
+    current: 'Ваша текущая скидка <strong>{{ currentDiscountText }}</strong>.',
+    next: 'Добавьте тканей еще на <strong>{{ toAddUp }} EUR</strong> и получите скидку <strong>{{ nextDiscountText }}</strong>',
+  },
+  tax: 'без НДС',
+};
