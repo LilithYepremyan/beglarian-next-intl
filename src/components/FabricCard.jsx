@@ -552,32 +552,19 @@ export default function FabricCard(props) {
                 CustomIcon={CO2Icon}
                 sx={{ mt: "16px", userSelect: "none" }}
               >
+              
                 {ch4
-                  ? tFabric("co2disclaimer", { co2, ch4, water })
-                  : tFabric("co2disclaimerShort", { co2, water })}
-                {". "}
-
-                {/* <Trans
-                  id={ch4 ? "co2disclaimer" : "co2disclaimerShort"}
-                  values={{ co2, ch4, water }}
-                  components={[<strong />]}
-                />{" "} */}
-
-                {/* {ch4 ? (
-                  <Trans
-                    id="co2disclaimer"
-                    values={{ co2, ch4, water }}
-                    components={[<strong />, <strong />, <strong />]}
-                  />
-                ) : (
-                  <Trans
-                    id="co2disclaimerShort"
-                    values={{ co2, water }}
-                    components={[<strong />, <strong />]}
-                  />
-                )}
-                {". "} */}
-
+                  ? tFabric.rich("co2disclaimer", {
+                      strong: (chunks) => <strong>{chunks}</strong>,
+                      co2,
+                      ch4,
+                      water,
+                    })
+                  : tFabric.rich("co2disclaimerShort", {
+                      strong: (chunks) => <strong>{chunks}</strong>,
+                      co2,
+                      water,
+                    })}{" "}
                 <CustomLink
                   sx={{ mt: "4px" }}
                   onClick={(e) => {
